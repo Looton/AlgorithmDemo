@@ -2,7 +2,7 @@
  * @FileName    SquareNumber.java
  * @Description 
  * @author      lyp3314@gmail.com
- * @Time        上午9:20:24
+ * @Time        2013-5-28:上午10:22:54
  */
 package com.looyp.acm;
 
