@@ -6,7 +6,7 @@
  * @Time        
  */
 
-//程序分析：   兔子的规律为数列1,1,2,3,5,8,13,21.... 
+//程序分析：   兔子的规律为数列1,1,2,3,5,8,13,21....  斐波那契数列 Sn = Sn-1+Sn-2
 package com.looyp.typical40topic;
 
 public class RubbitTest {
