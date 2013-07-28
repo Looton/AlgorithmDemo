@@ -13,7 +13,7 @@ public class InsertSort {
 			int temp = sourceArray[i];
 			int j = 0;
 			for (j = i - 1; j >= 0; j--) {
-				if (sourceArray[j] > temp) {
+				if (sourceArray[j] < temp) {// 升序(>) 降序(<)
 					sourceArray[j + 1] = sourceArray[j];
 				}
 				else {
