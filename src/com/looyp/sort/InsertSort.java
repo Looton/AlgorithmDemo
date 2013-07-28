@@ -7,6 +7,7 @@
 package com.looyp.sort;
 
 public class InsertSort {
+
 	public void insertSort(int[] sourceArray) {
 		for (int i = 1; i < sourceArray.length; i++) {
 			int temp = sourceArray[i];
