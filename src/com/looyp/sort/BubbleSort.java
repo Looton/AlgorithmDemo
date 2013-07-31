@@ -24,19 +24,19 @@ public class BubbleSort {
 	}
 
 	public static void main(String[] args) {
-		int[] a = { 49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 1, 8 };
+		int[] test = { 49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 1, 8 };
 		System.out.println("before sort:");
-		for (int i = 0; i < a.length; i++) {
-			System.out.print(a[i] + " ");
+		for (int i = 0; i < test.length; i++) {
+			System.out.print(test[i] + " ");
 		}
 
-		new BubbleSort().bubbleSort(a);
+		new BubbleSort().bubbleSort(test);
 
 		System.out.println();
 
 		System.out.println("after sort:");
-		for (int i = 0; i < a.length; i++) {
-			System.out.print(a[i] + " ");
+		for (int i = 0; i < test.length; i++) {
+			System.out.print(test[i] + " ");
 		}
 	}
 }
